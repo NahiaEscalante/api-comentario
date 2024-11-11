@@ -10,7 +10,7 @@ provider:
     role: arn:aws:iam::458293172600:role/LabRole
   environment:
     TABLE_NAME: ${sls:stage}-t_comentarios
-    INGEST_BUCKET: ${self:service}-${sls:stage}-ingesta-bucket
+    INGEST_BUCKET: ${self:service}-${sls:stage}-s12-nahia-ingesta-bucket
 
 functions:
   crear:
